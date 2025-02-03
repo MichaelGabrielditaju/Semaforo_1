@@ -51,6 +51,7 @@ int main() {
 
     // Loop principal
     while (true) {
+        printf("Sistema funcionando...\n"); // Imprime informação a cada segundo
         sleep_ms(1000); // Aguarda 1 segundo antes do próximo ciclo
     }
 
