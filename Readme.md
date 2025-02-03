@@ -11,7 +11,8 @@ O semáforo inicia com o LED vermelho aceso.
 A cada 3 segundos, o estado do semáforo é alterado na seguinte ordem: vermelho -> amarelo -> verde.
 A função repeating_timer_callback() é responsável por alterar o estado dos LEDs.
 A rotina principal imprime uma mensagem na porta serial a cada segundo.
-Código
+Código:
+'''c
 #include "pico/stdlib.h"
 
 // Função para atualizar os estados dos LEDs
@@ -71,5 +72,6 @@ int main() {
 
     return 0;
 }
+'''
 Experimento com BitDogLab
 Utilize a Ferramenta Educacional BitDogLab para testar o código utilizando o LED RGB nos GPIOs 11, 12 e 13.
